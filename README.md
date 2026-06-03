@@ -10,22 +10,26 @@
 
 ## Δομή Project
 
+```
 social_media_pipeline/
 ├── pipeline.py       # ETL pipeline
 ├── analysis.py       # Ανάλυση και γραφήματα
 ├── .env.example      # Παράδειγμα credentials
 └── data/
-├── raw/          # Αρχικά CSV
-├── processed/    # Επεξεργασμένα CSV
-└── outputs/      # Γραφήματα
+    ├── raw/          # Αρχικά CSV
+    ├── processed/    # Επεξεργασμένα CSV
+    └── outputs/      # Γραφήματα
+```
 
 ## Απαιτήσεις
 
+```
 pandas
 matplotlib
 sqlalchemy
 psycopg2-binary
 python-dotenv
+```
 
 ## Reliability Score
 
